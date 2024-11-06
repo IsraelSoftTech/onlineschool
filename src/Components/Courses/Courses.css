@@ -1,0 +1,105 @@
+.courses{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    width: 80%;
+    margin-top: 80px;
+    position: absolute;
+    right: 0;
+    gap: 1px;
+ 
+}
+.course-left{
+    flex: 2;
+   display: grid;
+   gap: 5px;
+}
+.course-right{
+    flex: 1;
+   display: grid;
+   gap: 5px;
+ 
+}
+ /* Individual card styles */
+ .cart {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 25px;
+    flex-basis: calc(100%); /* Each card takes up roughly a third of the available width */
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    height: 120px;
+
+
+  }
+  .cart-container{
+    display: flex;
+    gap: 1rem;
+  }
+    
+  .text h4{
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .text h3{
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+  }
+.page-nav{
+  position: absolute;
+  bottom: -20px;
+  display: flex;
+  right: 10px;
+  gap: 5px;
+
+}
+.pg-nav{
+  border-radius: 3px;
+
+}
+  .icon{
+    background: #e0dede;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+  }
+
+
+  @media (max-width: 600px) {
+    .cart-container {
+     display: flex;
+     margin: 2rem;
+     flex-wrap: wrap;
+    }
+    .courses{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+       justify-content: center;
+      
+    }
+    .course-right{
+      display: grid;
+      gap: 1px;
+      margin: 0;
+    }
+   .text h3,h4{
+      overflow: hidden;
+      font-size: 12px;
+    }
+    .cart{
+ padding: 15px;
+    }
+    .course-left{
+     display: flex;
+     flex-wrap: wrap;
+    }
+  }

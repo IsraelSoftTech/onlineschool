@@ -1,0 +1,123 @@
+.messageChat {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .messageChat__header {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .messageChat__discussion {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+  }
+  
+  .messageChat__avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .messageChat__content {
+    flex: 1;
+  }
+  
+  .messageChat__username {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .messageChat__text {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .messageChat__actions {
+    display: flex;
+    gap: 10px;
+    font-size: 0.8rem;
+    color: #888;
+  }
+  
+  .messageChat__likes,
+  .messageChat__comments {
+    cursor: pointer;
+  }
+  
+  .messageChat__commentBox {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+  }
+  
+  .messageChat__input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .messageChat__button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .messageChat__button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .messageChat {
+      padding: 10px;
+    }
+  
+    .messageChat__discussion {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .messageChat__avatar {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .messageChat__content {
+      text-align: center;
+    }
+  
+    .messageChat__commentBox {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .messageChat__input {
+      margin-right: 0;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+  
+    .messageChat__button {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,45 @@
+.applications-container {
+  max-width: 800px; /* Set a max width for the container */
+  padding: 20px; /* Padding */
+  background-color: #fff; /* Background color */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.applications-table {
+  width: 100%; /* Full width */
+  border-collapse: collapse; /* Remove space between borders */
+}
+
+th, td {
+  padding: 12px; /* Padding for cells */
+  text-align: left; /* Align text to the left */
+}
+
+.actions {
+  display: flex; /* Use flex for actions */
+  justify-content: space-around; /* Space actions evenly */
+  gap: 0.4rem;
+}
+
+button {
+  border: none;
+  border-radius: 50%; /* Rounded buttons */
+}
+
+.see-all {
+  display: block;
+  margin-top: 20px;
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+@media (max-width: 600px) {
+  .applications-container {
+      width: 100%; /* Full width on small screens */
+  }
+}

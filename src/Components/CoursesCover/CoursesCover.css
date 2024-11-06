@@ -1,0 +1,81 @@
+/* AssignmentComponent.css */
+.assignment-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .assignment-text {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .quote {
+    font-style: italic;
+  }
+  
+  .assignment-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .assignment-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+  }
+  
+  .assignment-caption {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .assignment-caption h2 {
+    margin: 5px 0;
+    font-size: 24px;
+  }
+  
+  .assignment-caption p {
+    margin: 2px 0;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .assignment-button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .assignment-button:hover {
+    background-color: #ff4b4b;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .assignment-container {
+      padding: 15px;
+    }
+  
+    .assignment-text, .assignment-caption p, .assignment-caption h2 {
+      font-size: 14px;
+    }
+  
+    .assignment-image {
+      max-width: 300px;
+    }
+  }
+  

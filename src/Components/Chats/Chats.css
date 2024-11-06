@@ -1,0 +1,42 @@
+.chat-list {
+  max-width: 400px;
+  margin: 20px auto; /* Center the chat list on the page */
+  padding: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 16px;
+  font-size: 15px;
+}
+
+.chat-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-item {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.chat-img {
+  width: 40px; /* Increased size for better visibility */
+  height: 40px; /* Increased size for better visibility */
+  border-radius: 50%;
+}
+
+.chat-item:last-child {
+  border-bottom: none;
+}
+
+.see-all {
+  display: block;
+  margin-top: 16px;
+  text-align: right;
+  color: #007bff;
+  text-decoration: none;
+}

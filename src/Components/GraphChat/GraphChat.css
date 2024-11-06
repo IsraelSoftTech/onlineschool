@@ -1,0 +1,32 @@
+/* GraphChat.css */
+.graph-one {
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+  max-width: 420px;
+  max-height: 420px;
+  margin: auto;
+}
+
+.graph-one h3 {
+  font-size: 15px;
+}
+
+.graph-one span {
+  font-size: 10px;
+}
+
+.table {
+  font-size: small;
+  border-collapse: collapse;
+}
+
+@media (max-width: 600px) {
+  .graph-one {
+    width: 90%;
+    min-height: 400px;
+  }
+}

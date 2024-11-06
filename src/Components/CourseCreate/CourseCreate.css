@@ -1,0 +1,101 @@
+.course-create-container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.course-create-card {
+  width: 90%;
+  max-width: 400px;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-create-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+  /* ------------------------- */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-size: 0.9em;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  .teacher-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .add-teacher-btn {
+    background: none;
+    border: none;
+    color: #888;
+    cursor: pointer;
+  }
+  
+  .create-event-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .create-event-btn:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Small screen adjustments */
+  @media (max-width: 480px) {
+    .course-create-card {
+      padding: 15px;
+    }
+  
+    .course-create-header h2 {
+      font-size: 1.2em;
+    }
+  
+    .create-event-btn {
+      padding: 12px;
+    }
+  }
+  
